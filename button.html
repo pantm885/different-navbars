@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="button.css" />
+  </head>
+
+  <body>
+    <!-- button -->
+
+    <section>
+      <div class="max-w-[80%] mt-15 m-auto">
+        <div class="font-semibold text-2xl">
+          <p>What's new in CancelUI ?</p>
+        </div>
+        <div class="text-xl mt-5">
+          <p>
+            Built for the new era - "colors, components, and
+            creativity-reimagined"
+          </p>
+        </div>
+
+        <div
+          class="flex justify-center flex-wrap lg:flex-nowrap md:flex-wrap gap-8 items-stretch"
+        >
+          <!-- Button Preview -->
+          <div
+            class="mt-6 border bg-blue-100 rounded-3xl w-[60vh] min-w-[45%] p-6 flex flex-col justify-between"
+          >
+            <div>
+              <button
+                class="px-6 py-2 bg-blue-300 hover:bg-blue-400 hover:text-white rounded-xl font-semibold"
+              >
+                Preview
+              </button>
+            </div>
+
+            <div
+              class="mt-8 flex flex-col items-center justify-center space-y-6 flex-1"
+            >
+              <button
+                class="px-6 py-3 rounded-2xl bg-white/50 border border-white/50 shadow-md text-gray-800 font-medium hover:bg-white/40 transition"
+              >
+                Button
+              </button>
+
+              <button
+                class="px-6 py-3 rounded-2xl text-white font-semibold bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 shadow-lg hover:scale-105 transition"
+              >
+                Gradient Button
+              </button>
+
+              <button
+                class="px-6 py-3 rounded-xl bg-black text-white font-semibold relative group overflow-hidden"
+              >
+                <span
+                  class="absolute inset-0 bg-green-500 blur-md opacity-50 group-hover:opacity-75 transition"
+                ></span>
+                <span class="relative">Neon Glow Button</span>
+              </button>
+
+              <button
+                class="flex items-center space-x-2 px-6 py-3 rounded-lg bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-semibold shadow-md hover:scale-105 group"
+              >
+                <span class="opacity-70 group-hover:opacity-100"
+                  >Icon Button</span
+                >
+                <i
+                  class="mt-1 opacity-60 group-hover:opacity-100 group-hover:w-5 fa-solid fa-arrow-right"
+                ></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Button Code -->
+          <div
+            class="mt-6 w-full lg:w-1/2 max-w-md bg-gradient-to-b from-blue-300 to-orange-500 p-1 rounded-3xl flex"
+          >
+            <div
+              class="bg-white rounded-3xl shadow-lg p-4 w-full h-auto overflow-x-auto"
+            >
+              <div class="flex justify-between items-center mb-3">
+                <h3 class="font-bold text-lg">HTML</h3>
+                <button class="text-orange-500 underline cursor-pointer copy">
+                  Copy
+                </button>
+              </div>
+              <pre class="text-sm text-gray-700 whitespace-pre overflow-x-auto">
+&lt;button class="px-6 py-3 rounded-2xl bg-white border shadow"&gt;
+  Button
+&lt;/button&gt;
+
+&lt;button class="px-6 py-3 rounded-2xl text-white 
+  bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"&gt;
+  Gradient Button
+&lt;/button&gt;
+
+&lt;button class="px-6 py-3 rounded-xl bg-black text-white relative group"&gt;
+  &lt;span class="absolute inset-0 bg-green-500 blur-md opacity-50"&gt;&lt;/span&gt;
+  &lt;span class="relative"&gt;Neon Glow Button&lt;/span&gt;
+&lt;/button&gt;
+
+&lt;button class="flex items-center space-x-2 px-6 py-3 
+  rounded-lg bg-gradient-to-r from-cyan-500 to-blue-500 text-white"&gt;
+  &lt;span&gt;Icon Button&lt;/span&gt;
+  &lt;i class="fa-solid fa-arrow-right"&gt;&lt;/i&gt;
+&lt;/button&gt;</pre
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- form -->
+
+    <section>
+      <div class="max-w-[80%] mt-15 m-auto">
+        <div class="font-semibold text-2xl">
+          <p>Forms</p>
+        </div>
+        <div class="text-xl mt-5">
+          <p>"Create forms in a few moments of seconds."</p>
+        </div>
+
+        <div
+          class="flex justify-center flex-wrap lg:flex-nowrap md:flex-wrap gap-8 mb-5"
+        >
+          <div
+            class="mt-6 p-5 sm:p-10 border bg-blue-100 rounded-3xl h-full w-[60vh] min-w-[45%]"
+          >
+            <div class="p-4 sm:p-6 rounded-2xl shadow-lg bg-white border">
+              <h2 class="text-2xl font-bold text-center text-gray-700">
+                Sign Up
+              </h2>
+              <p class="text-sm text-gray-500 text-center mt-1">
+                Create your account in a few steps
+              </p>
+
+              <form action="#" class="mt-6 space-y-4">
+                <div>
+                  <label class="block text-gray-600 font-medium mb-1"
+                    >Full Name</label
+                  >
+                  <input
+                    type="text"
+                    placeholder="Enter your name"
+                    class="w-full px-4 py-2 border rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-400"
+                  />
+                </div>
+
+                <div>
+                  <label class="block text-gray-600 font-medium mb-1"
+                    >Email</label
+                  >
+                  <input
+                    type="email"
+                    placeholder="Enter your email"
+                    class="w-full px-4 py-2 border rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-400"
+                  />
+                </div>
+
+                <div>
+                  <label class="block text-gray-600 font-medium mb-1"
+                    >Password</label
+                  >
+                  <input
+                    type="password"
+                    placeholder="Password"
+                    class="w-full px-4 py-2 border rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-400"
+                  />
+                </div>
+
+                <div
+                  class="flex items-center justify-between text-sm text-gray-600"
+                >
+                  <label class="flex items-center space-x-2">
+                    <input type="checkbox" class="h-4 w-4" />
+                    <span>Remember me</span>
+                  </label>
+                  <a href="#" class="text-blue-500 hover:underline"
+                    >Forgot password?</a
+                  >
+                </div>
+
+                <button
+                  type="submit"
+                  class="w-full bg-blue-500 text-white font-semibold py-2 rounded-xl shadow-md hover:scale-105 transition"
+                >
+                  Create Account
+                </button>
+              </form>
+
+              <p class="text-sm text-gray-500 text-center mt-6">
+                Already have an account?
+                <a href="#" class="text-blue-500 hover:underline">Log in</a>
+              </p>
+            </div>
+          </div>
+          <!-- Form Code -->
+          <div
+            class="w-full lg:w-1/2 max-w-md bg-gradient-to-b from-blue-300 to-orange-500 p-1 rounded-3xl"
+          >
+            <div
+              class="bg-white rounded-3xl shadow-lg p-4 h-auto overflow-x-auto"
+            >
+              <div class="flex justify-between items-center mb-3">
+                <h3 class="font-bold text-lg">HTML</h3>
+                <button class="text-orange-500 underline cursor-pointer copy">
+                  Copy
+                </button>
+              </div>
+              <pre class="text-sm text-gray-700 whitespace-pre overflow-x-auto">
+&lt;form class="space-y-4"&gt;
+  &lt;div&gt;
+    &lt;label&gt;Full Name&lt;/label&gt;
+    &lt;input type="text" class="w-full px-4 py-2 border rounded-xl"&gt;
+  &lt;/div&gt;
+
+  &lt;div&gt;
+    &lt;label&gt;Email&lt;/label&gt;
+    &lt;input type="email" class="w-full px-4 py-2 border rounded-xl"&gt;
+  &lt;/div&gt;
+
+  &lt;div&gt;
+    &lt;label&gt;Password&lt;/label&gt;
+    &lt;input type="password" class="w-full px-4 py-2 border rounded-xl"&gt;
+  &lt;/div&gt;
+
+  &lt;div class="flex items-center justify-between"&gt;
+    &lt;label class="flex items-center space-x-2"&gt;
+      &lt;input type="checkbox" class="h-4 w-4"&gt;
+      &lt;span&gt;Remember me&lt;/span&gt;
+    &lt;/label&gt;
+    &lt;a href="#" class="text-blue-500"&gt;Forgot password?&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;button type="submit"
+    class="w-full bg-blue-500 text-white font-semibold py-2 rounded-xl"&gt;
+    Create Account
+  &lt;/button&gt;
+&lt;/form&gt;
+</pre
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      let copies = document.querySelectorAll(".copy");
+
+      copies.forEach((copy) => {
+        copy.addEventListener("click", () => {
+          copy.innerText = "Copied";
+          copy.style.padding = "3px 5px";
+          copy.style.color = "black";
+          copy.style.fontSize = "18px";
+          copy.style.fontWeight = "600";
+
+          setTimeout(() => {
+            copy.innerText = "Copy";
+            copy.style.padding = "";
+            copy.style.color = "";
+            copy.style.fontSize = "";
+            copy.style.fontWeight = "";
+          }, 3000);
+        });
+      });
+    </script>
+  </body>
+</html>
